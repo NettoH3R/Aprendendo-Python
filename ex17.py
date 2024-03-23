@@ -21,3 +21,4 @@ valor_op2 = galao_op2 * 25
 
 print('\nNa primeira opção serão usadas {} latas, e o valor final será de {} reais\n' .format(lata_op1,valor_op1))
 print('Na segunda opção serão usadas {} galões, e o valor final será de {} reais\n' .format(galao_op2,valor_op2))
+
