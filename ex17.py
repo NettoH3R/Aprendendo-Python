@@ -17,11 +17,7 @@ valor_op1 = lata_op1 * 80
 galao_op2 = int(math.ceil((area/6)/3.6))
 valor_op2 = galao_op2 * 25
 
-lata_op3 = round((area/6)/18)
-eco = (area/6)%18    
-eco = math.ceil(eco/3.6)
-valor_op3 = (eco * 25) + (lata_op3 * 80)
+
 
 print('\nNa primeira opção serão usadas {} latas, e o valor final será de {} reais\n' .format(lata_op1,valor_op1))
 print('Na segunda opção serão usadas {} galões, e o valor final será de {} reais\n' .format(galao_op2,valor_op2))
-print('Na treceira opção serão usadas {} latas e {} galão(ões), e o valor final será de {} reais' .format(lata_op3,eco,valor_op3))
